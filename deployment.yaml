@@ -391,7 +391,7 @@ parameters:
   - name: "CONSUMER_GIT_URL"
     displayName: "Source Repository URL"
     description: "The URL of the repository with your application source code"
-    value: "https://github.com/Cingulara/peopleapi-jenkins-auto-deploy.git"
+    value: "https://github.com/cmelim/reponetcore.git"
     required: true
   - name: "CONSUMER_GIT_BRANCH"
     displayName: "Source Repository Branch"
@@ -401,7 +401,7 @@ parameters:
   - name: "PEOPLEAPI_CONN_STRING"
     displayName: "Connection String for PeopleAPI"
     description: "The database connection string for the peopleapidb database for this API"
-    value: "server=peopleapidb; user id=peopleAPI; password=myP@ssw0rd; initial catalog=peopleAPI;"
+    value: "server=peopleapidb; user id=peopleAPI; password=mysapwdn0tGo0d!; initial catalog=peopleAPI;"
     required: true
   - name: MSSQL_VOLUME_CAPACITY
     description: Volume space available for MSSQL
